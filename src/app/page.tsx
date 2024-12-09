@@ -1,10 +1,5 @@
-import { Hero } from "@/components/landing/Hero";
+import { Landing } from "@/components/landing/Landing";
 
-
- export default function Home() {
-  return (
- <div className="min-h-screen w-full bg-black">
-    <Hero />
- </div>
-  );
+export default function Home() {
+  return <Landing />;
 }

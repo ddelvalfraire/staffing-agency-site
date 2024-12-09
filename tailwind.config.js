@@ -23,10 +23,17 @@ module.exports = {
 						backgroundPosition: "350% 50%, 350% 50%",
 					},
 				},
+				scroll: {
+					to: {
+						transform: "translate(calc(-50% - 0.5rem))",
+					},
+				},
 			},
 			animation: {
 				blink: "blink 500ms linear",
 				aurora: "aurora 60s linear infinite",
+				scroll:
+					"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
