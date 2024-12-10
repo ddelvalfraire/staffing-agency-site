@@ -10,7 +10,7 @@ export function MissionStatement() {
           width={300}
           height={300}
           className="object-cover"
-          priority
+          loading="lazy"
         />
       <Separator className="bg-black mb-4 md:mb-10" />
       <p className="text-xl md:text-3xl font-semibold leading-relaxed text-slate-500">

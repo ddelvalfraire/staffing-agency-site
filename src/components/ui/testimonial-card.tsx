@@ -29,6 +29,7 @@ export function TestimonialCard({
           className="object-cover rounded-bl-2xl md:rounded-bl-3xl rounded-tr-2xl md:rounded-tr-3xl
             transition-transform duration-300
             group-hover:scale-110 md:w-[125px] md:h-[125px]"
+            loading="lazy"
         />
       </div>
 

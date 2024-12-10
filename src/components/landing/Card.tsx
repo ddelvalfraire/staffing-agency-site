@@ -40,7 +40,7 @@ const Card: React.FC<CardProps> = ({
           </LinkButton>
         </div>
         <div className="absolute bottom-10 right-0 md:right-10 object-cover w-[200px] md:w-[350px] h-[200px] md:h-[350px]">
-          <Image src={imageUrl} alt={title} width={350} height={350} />
+          <Image src={imageUrl} alt={title} width={350} height={350} loading="lazy" />
         </div>
       </div>
     </div>

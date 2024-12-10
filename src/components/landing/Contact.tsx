@@ -19,6 +19,7 @@ export function Contact() {
               height={320}
               className="object-contain opacity-50 md:opacity-80 
                 transition-all duration-500 hover:opacity-100"
+              loading="lazy"
             />
           </div>
           <h1

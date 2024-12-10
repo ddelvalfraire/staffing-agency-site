@@ -10,7 +10,7 @@ export function VisionStatement() {
         width={300}
         height={300}
         className="w-[200px] md:w-[300px] h-[200px] md:h-[300px] object-cover"
-        priority
+        loading="lazy"
       />
 
       <div className="flex flex-col md:flex-row items-start gap-4 md:gap-8">

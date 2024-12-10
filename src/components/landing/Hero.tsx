@@ -23,6 +23,7 @@ export function Hero() {
           src="/images/office.jpg"
           alt="Office image"
           className="h-full w-full object-cover blur-sm"
+          priority
           fill
         />
 

@@ -9,8 +9,8 @@ export function ServiceHighlight() {
           src="/images/workers.jpg"
           alt="Team collaboration"
           className="h-full w-full object-cover rounded-2xl md:rounded-3xl"
+          loading="lazy"
           fill
-          priority
         />
         <div className="absolute inset-x-0 bottom-0 md:inset-0 flex h-1/2 md:h-full w-full p-2 md:p-4">
           <div className="flex flex-col justify-center md:justify-between bg-gradient-to-r from-black/80 to-transparent md:to-gray backdrop-blur-md rounded-2xl md:rounded-3xl p-4 md:p-10 w-full md:w-1/2 h-full">

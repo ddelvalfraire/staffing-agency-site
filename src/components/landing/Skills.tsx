@@ -36,8 +36,8 @@ export function Skills({ ref }: { ref: React.RefObject<HTMLDivElement | null> })
               src="/images/meeting.jpg"
               alt="People in a meeting"
               className="h-full w-full object-cover rounded-t-2xl md:rounded-3xl"
+              loading="lazy"
               fill
-              priority
             />
             <div className="absolute inset-0 bg-black/70" />
           </AspectRatio>
