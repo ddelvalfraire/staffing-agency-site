@@ -27,7 +27,7 @@ export function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-8 bg-zinc-900 text-white rounded-3xl m-2"
+      className="space-y-8 bg-zinc-900 text-white rounded-3xl w-full "
     >
       <div className="space-y-6 p-8">
         <h1 className="text-2xl mb-6">What would you like to say?</h1>
