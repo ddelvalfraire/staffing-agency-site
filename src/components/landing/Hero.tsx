@@ -1,4 +1,3 @@
-import { Aperture } from "lucide-react";
 import Image from "next/image";
 import { AuroraBackground } from "../ui/aurora-background";
 import { LinkButton } from "./LinkButton";
