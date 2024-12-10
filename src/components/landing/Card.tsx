@@ -35,7 +35,7 @@ const Card: React.FC<CardProps> = ({
           {description}
         </p>
         <div className="flex flex-col md:flex-row gap-4">
-          <LinkButton href="#contact" variant={linkButtonVariant}>
+          <LinkButton href="/contact" variant={linkButtonVariant}>
             Contact us
           </LinkButton>
         </div>

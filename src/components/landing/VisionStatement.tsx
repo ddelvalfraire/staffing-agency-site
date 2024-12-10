@@ -26,7 +26,7 @@ export function VisionStatement() {
             Through strategic partnerships and cutting-edge expertise, we&apos;re building the digital
             infrastructure that will define the next generation of business success.
           </p>
-          <LinkButton href="#contact" variant="dark" className="self-start">
+          <LinkButton href="#services" variant="dark" className="self-start">
             Our Services
           </LinkButton>
         </div>

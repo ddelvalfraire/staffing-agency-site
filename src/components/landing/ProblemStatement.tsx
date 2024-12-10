@@ -3,7 +3,7 @@ import { SectionLabel } from "../ui/section-label";
 
 export function ProblemStatement() {
     return(
-      <section className="flex flex-col space-y-8 md:space-y-20 w-full h-full relative bg-black text-white p-6 md:p-20 rounded-b-3xl">
+      <section id="about" className="flex flex-col space-y-8 md:space-y-20 w-full h-full relative bg-black text-white p-6 md:p-20 rounded-b-3xl">
         <SectionLabel
           icon={<Globe className="w-3 h-3 text-red-500" />}
           label="Challenges"

@@ -34,7 +34,7 @@ export function Contact() {
           >
             <div className="flex flex-col space-y-6 w-full md:w-auto">
               <LinkButton
-                href="#contact"
+                href="/contact"
                 variant="dark"
                 className="w-full md:w-auto text-lg transition-all duration-300 
                   hover:scale-105 hover:shadow-lg"

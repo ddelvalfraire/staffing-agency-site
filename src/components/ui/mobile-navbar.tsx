@@ -10,10 +10,14 @@ const MobileNavbar = ({ className }: { className?: string }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/services", label: "Services" },
-    { href: "/contact", label: "Contact" },
+    {
+      label: "About",
+      href: "/#about",
+    },
+    {
+      label: "Services",
+      href: "/#services",
+    },
   ];
 
   const menuVariants = {

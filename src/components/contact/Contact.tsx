@@ -6,7 +6,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 export function Contact() {
   return (
     <div className="bg-black min-h-screen flex flex-col">
-         <div className="grid grid-cols-1 lg:grid-cols-7 gap-2 flex-1 pt-40 p-4  w-full max-w-7xl mb-20 mx-auto place-items-center">
+         <div className="grid grid-cols-1 lg:grid-cols-7 gap-2 flex-1 pt-32 p-4  w-full max-w-7xl mb-20 mx-auto place-items-center">
         <div className="w-full lg:col-span-4">
           <ContactForm />
         </div>

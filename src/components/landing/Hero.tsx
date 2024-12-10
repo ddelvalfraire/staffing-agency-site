@@ -77,7 +77,7 @@ function HeroContent({
         through innovative engineering and design excellence.
       </p>
       <LinkButton
-        href="#services"
+        href="/contact"
         variant={variant === "dark" ? "light" : "dark"}
       >
         Get In Touch

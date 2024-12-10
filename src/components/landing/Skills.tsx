@@ -28,7 +28,7 @@ export function Skills({ ref }: { ref: React.RefObject<HTMLDivElement | null> })
   ];
 
   return (
-    <section ref={ref} className="w-full py-10 md:py-20">
+    <section id="services" ref={ref} className="w-full py-10 md:py-20">
       <div className="mx-auto px-2 md:px-4">
         <div className="relative rounded-2xl md:rounded-3xl overflow-hidden">
           <AspectRatio ratio={16 / 10} className="h-full w-full absolute inset-0">
