@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/lib/util/navItems";
-import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 import MobileNavbar from "@/components/ui/mobile-navbar";
+import "./globals.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +25,7 @@ export default function RootLayout({
         <MobileNavbar className="md:hidden" />
         <FloatingNav navItems={navItems} className="hidden md:flex"/>
         {children}
-        
+        <Toaster />
       </body>
     </html>
   );
