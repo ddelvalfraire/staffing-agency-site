@@ -51,19 +51,19 @@ function HeroContent({
   return (
     <div
       className={cn(
-        "flex flex-col w-full items-start justify-end space-y-16 h-full",
+        "flex flex-col w-full items-start justify-end  h-full",
         variant === "dark" ? "text-white" : "text-gray-900",
         className
       )}
     >
-      <div className="hidden md:flex lg:absolute top-12 left-15 items-center gap-4">
+      <div className="hidden md:flex xl:absolute top-12 left-15 items-center gap-4">
         <Image src="/images/logo.png" alt="Redwood Digital" width={40} height={40} priority />
         <h1 className="text-4xl font-semibold">Redwood Digital</h1>
       </div>
 
       <p
         className={cn(
-          "max-w-lg lg:max-w-3xl text-lg md:text-3xl font-semibold leading-relaxed",
+          "max-w-xl lg:max-w-2xl xl:max-w-3xl text-lg md:text-3xl font-semibold leading-relaxed my-12",
           variant === "dark" ? "text-gray-300" : "text-gray-600"
         )}
       >
