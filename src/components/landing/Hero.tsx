@@ -58,8 +58,8 @@ function HeroContent({
       )}
     >
       <div className="hidden md:flex lg:absolute top-12 left-15 items-center gap-4">
-        <Aperture className="w-14 h-14 text-red-500" />
-        <h1 className="text-4xl font-semibold">DevForge</h1>
+        <Image src="/images/logo.png" alt="Redwood Digital" width={40} height={40} priority />
+        <h1 className="text-4xl font-semibold">Redwood Digital</h1>
       </div>
 
       <p

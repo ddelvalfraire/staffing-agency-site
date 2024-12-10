@@ -28,8 +28,13 @@ module.exports = {
 						transform: "translate(calc(-50% - 0.5rem))",
 					},
 				},
+				continuous_scroll: {
+					"0%": { transform: "translateX(0)" },
+					"100%": { transform: "translateX(-100%)" },
+				},
 			},
 			animation: {
+				continuous_scroll: "continuous_scroll 20s linear infinite",
 				blink: "blink 500ms linear",
 				aurora: "aurora 60s linear infinite",
 				scroll:

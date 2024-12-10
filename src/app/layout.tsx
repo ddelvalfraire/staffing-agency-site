@@ -13,26 +13,37 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
   ),
-  title: "Firm Name | Professional Services",
-  description: "Professional services and consulting for businesses",
-  keywords: ["consulting", "professional services", "business"],
+  title: "Redwood Digital | Technical Staffing & Software Solutions",
+  description: "Premier technical staffing and custom software development. Specializing in web applications, SaaS solutions, and engineering talent placement.",
+  keywords: [
+    "technical staffing",
+    "software engineering",
+    "web development",
+    "SaaS",
+    "talent acquisition",
+    "custom software",
+    "engineering recruitment",
+    "software consulting",
+    "tech talent",
+    "application development"
+  ],
   openGraph: {
-    title: "Firm Name",
-    description: "Professional services and consulting for businesses",
+    title: "Redwood Digital | Technical Staffing & Software Solutions",
+    description: "Premier technical staffing and custom software development. Specializing in web applications, SaaS solutions, and engineering talent placement.",
     images: [
-      // {
-      //   url: "/og-image.jpg",
-      //   width: 1200,
-      //   height: 630,
-      //   alt: "Firm Name",
-      // },
+      {
+        url: "/og-image.png",
+        width: 2916,
+        height: 1422,
+        alt: "Redwood Digital - Technical Staffing & Software Solutions",
+      },
     ],
   },
-  // icons: {
-  //   icon: "/favicon.ico",
-  //   shortcut: "/favicon-16x16.png",
-  //   apple: "/apple-touch-icon.png",
-  // },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   robots: {
     index: true,
     follow: true,

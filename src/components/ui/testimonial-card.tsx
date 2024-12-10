@@ -24,8 +24,8 @@ export function TestimonialCard({
         <Image
           src={imageUrl}
           alt={name}
-          width={100}
-          height={100}
+          width={80}
+          height={80}
           className="object-cover rounded-bl-2xl md:rounded-bl-3xl rounded-tr-2xl md:rounded-tr-3xl
             transition-transform duration-300
             group-hover:scale-110 md:w-[125px] md:h-[125px]"

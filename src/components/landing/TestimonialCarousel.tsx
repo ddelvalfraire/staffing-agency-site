@@ -2,53 +2,60 @@ import { Testimonials, Testimonial } from "../ui/testimonials";
 
 const quotes: Testimonial[] = [
   {
-    name: "John Doe",
+    name: "Michael Anderson",
     quote:
-      "This service is amazing! It has completely transformed our business.",
+      "This service has been outstanding! It completely transformed our business operations.",
     title: "CEO",
-    imageUrl: "https://randomuser.me/api/portraits/men/1.jpg",
+    imageUrl: "/images/man-1.jpg",
   },
   {
-    name: "Jane Smith",
+    name: "Jennifer Thompson",
     title: "Marketing Director",
     quote:
-      "I can't recommend this enough. The team is fantastic and the results speak for themselves.",
-    imageUrl: "https://randomuser.me/api/portraits/women/2.jpg",
+      "The results have exceeded all our expectations. Their strategic approach is remarkable.",
+    imageUrl: "/images/woman-1.jpg",
   },
   {
-    name: "Sam Wilson",
+    name: "Robert Mitchell",
     title: "Product Manager",
     quote:
       "A game-changer for our product development process. Highly efficient and reliable.",
-    imageUrl: "https://randomuser.me/api/portraits/men/3.jpg",
+    imageUrl: "/images/man-2.jpg",
   },
   {
-    name: "Lisa Taylor",
+    name: "Sarah Williams",
     title: "Chief Technology Officer",
     quote:
-      "The innovation and expertise this team brings to the table is unmatched. We've seen remarkable growth.",
-    imageUrl: "https://randomuser.me/api/portraits/women/4.jpg",
+      "The innovation and expertise this team brings is truly exceptional.",
+    imageUrl: "/images/woman-2.jpg",
   },
   {
-    name: "Michael Brown",
+    name: "David Harrison",
     title: "Operations Manager",
     quote:
-      "The level of professionalism and dedication is truly commendable. A seamless experience from start to finish.",
-    imageUrl: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Their professionalism and commitment are truly remarkable. Outstanding results.",
+    imageUrl: "/images/man-3.jpg",
   },
   {
-    name: "Emily Davis",
+    name: "Emily Parker",
     title: "HR Specialist",
     quote:
-      "It's refreshing to work with a team that truly understands the value of collaboration and innovation.",
-    imageUrl: "https://randomuser.me/api/portraits/women/6.jpg",
+      "An exceptional experience. The team's innovative approach sets them apart.",
+    imageUrl: "/images/woman-3.jpg",
   },
   {
-    name: "Chris Johnson",
+    name: "James Wilson",
     title: "Sales Lead",
     quote:
-      "The results have exceeded our expectations. Our team productivity has never been better.",
-    imageUrl: "https://randomuser.me/api/portraits/men/7.jpg",
+      "The results have exceeded our expectations. Truly outstanding partnership.",
+    imageUrl: "/images/man-4.jpg",
+  },
+  {
+    name: "Rachel Stevens",
+    title: "Digital Strategist",
+    quote:
+      "Their innovative solutions have revolutionized how we approach digital challenges.",
+    imageUrl: "/images/woman-4.jpg",
   },
 ];
 export function TestimonialCarousel() {

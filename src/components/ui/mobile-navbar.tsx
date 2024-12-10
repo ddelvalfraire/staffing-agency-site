@@ -1,6 +1,6 @@
 "use client";
 
-import { Aperture } from "lucide-react";
+import Image from "next/image";
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -48,8 +48,8 @@ const MobileNavbar = ({ className }: { className?: string }) => {
         )}
       >
         <div className="flex items-center">
-          <Aperture className="w-6 h-6 text-red-500" />
-          <span className="text-xl font-bold">Site Title</span>
+         <Image src="/images/logo.png" alt="Redwood Digital" width={40} height={40} priority />
+          <span className="text-xl font-bold">Redwood Digital</span>
         </div>
 
         <button
