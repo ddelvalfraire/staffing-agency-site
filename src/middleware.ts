@@ -1,7 +1,7 @@
 // middleware.ts
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { Ratelimit } from "@upstash/ratelimit";
+import { Duration, Ratelimit } from "@upstash/ratelimit";
 import { Redis } from "@upstash/redis";
 
 // Configuration
@@ -29,7 +29,7 @@ const redis = new Redis({
 // Configure rate limiters
 const defaultLimiter = new Ratelimit({
   redis,
-  limiter: Ratelimit.slidingWindow(RATE_LIMIT_REQUESTS, RATE_LIMIT_WINDOW),
+  limiter: Ratelimit.slidingWindow(RATE_LIMIT_REQUESTS, RATE_LIMIT_WINDOW as Duration),
   analytics: true,
 });
 
